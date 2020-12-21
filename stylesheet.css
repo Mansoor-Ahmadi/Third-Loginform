@@ -1,0 +1,103 @@
+
+body{
+    background-color: #ddd;
+    font-family: sans-serif;
+    font-weight: 100;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    text-align: center;
+    height: 95vh;
+    /* border: 3px red dotted; */
+}
+
+h1{
+    font-weight: bold;
+    margin: 0;
+}
+
+a{
+    color: #333;
+    text-decoration: none;
+    font-size: 14px;
+    margin: 15px 0;
+}
+
+p{
+    font-weight: 100;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 0.5px;
+    margin: 20px 0 0 0;
+}
+
+
+
+.main-container{
+    background-color: #fff;
+    position: relative;
+    border: 1px black solid;
+    border-radius: 10px;
+    margin: 0 100px;
+    display: flex;
+    flex-direction: column;
+    padding: 10px 0 20px;
+}
+
+.social-container{
+    margin: 15px 0;
+}
+
+.social-container a{
+    border: 1px solid #ddd;
+    border-radius: 50%;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 5px;
+    height: 40px;
+    width: 40px;
+}
+
+.form-container form{
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+    text-align: center;
+    padding: 0 15px;
+}
+
+.form-container input{
+    background-color: #eee;
+    font-size: 14px;
+    border: none;
+    outline: none;
+    padding: 12px 15px;
+    margin: 0 8px 8px;
+}
+
+.sign-in-button{
+    border: 1px solid #ff4b2b;
+    border-radius: 15px;
+    color: white;
+    background-color: #ff4b2b;
+    padding: 12px 45px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    transform: transform 80ms ease-in;
+    display: block;
+    width: 100%;
+    margin: 10px 0;
+}
+
+.sign-in-button:active{
+    transform: scale(0.95);
+}
+
+.sign-in-button:focus{
+    outline: none;
+}
+
